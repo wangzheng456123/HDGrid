@@ -1,10 +1,10 @@
-### Parafilter-CUDA:
+### HDGrid:
 
-- This repo contain beta version of CUDA version parafilter.
+- This repo contain sample implementation of HDGrid.
 
 #### BUILD:
 
-- To build the project, simply run the build.sh script.
+- To build the project, you need to install first inestall C++ version [RAPIDS RAFT GitHub](https://github.com/rapidsai/raft), then run the build.sh script.
 
 
 ##### Requirements:
