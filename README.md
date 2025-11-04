@@ -4,7 +4,7 @@
 
 #### BUILD:
 
-- To build the project, you need to install first inestall C++ version [RAPIDS RAFT GitHub](https://github.com/rapidsai/raft), then run the build.sh script.
+- To build the project, you need to first inestall C++ version [RAPIDS RAFT GitHub](https://github.com/rapidsai/raft), then run the build.sh script.
 
 
 ##### Requirements:
