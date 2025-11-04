@@ -54,7 +54,7 @@ Here are some notes for the configuration:
 
 - **mem_bound**: Determines the appropriate query and data batch sizes. It indicates the upper bound of the GPU memory used by HDGrid.
 
-- **is_calc_mem_predictor_coeff**: HDGrid requires certain configuration parameters to determine the optimal query and data batch sizes. If set to `1`, HDGrid will estimate these parameters without performing the actual ANN search. You should set this to `1` and run SearchEngine before starting the actual ANN search.
+- **is_calc_mem_predictor_coeff**: HDGrid requires certain configuration parameters to determine the optimal query and data batch sizes. If set to `1`, HDGrid will estimate these parameters without performing the actual ANN search. You should set this to `1` and run SearchEngine before starting the first time actual ANN search.
 
 - **path**: Specifies the relative path to the dataset. The path is relative to the build folder where the HDGrid binary is located.
 
