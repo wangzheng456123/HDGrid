@@ -19,7 +19,7 @@
 
 1. ##### parse dataset:
 
-   HDGrid uses an HDF5 dataset as input. Before running HDGrid, you need to parse the HDF5 dataset into raw data. This can be done by simply running the read_hdf5.py script located in the src folder.
+   HDGrid uses an HDF5 dataset as input. Before running HDGrid, you need to parse the HDF5 dataset into raw data. This can be done by simply running the read_hdf5.py script.
 
 2. ##### config HDGrid: 
    Before running HDGrid, you need to create a HDGrid.conf file. A sample configuration file is shown below:
