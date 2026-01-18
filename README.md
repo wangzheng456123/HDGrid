@@ -1,6 +1,6 @@
 ### HDGrid:
 
-- This repo contain sample implementation of HDGrid.
+- This repository provides a reference implementation of HDGrid for evaluation purposes.
 
 #### BUILD:
 
@@ -34,7 +34,7 @@ lowest_query_batch = 125
 label_dim = 1
 max_grids = 30000000
 mem_bound = 5000000000
-path = "dataset/cc_news/"
+path = "dataset/example_dataset/"
 clusters = 512
 sub_clusters = 10
 n_list = 64
@@ -111,11 +111,12 @@ Run the `search-engine` executable with the following command line arguments:
 
 - **[Algorithm]**: Name of the algorithm, e.g., `super-grid`(Note: Our retrieval engine includes other high-performance filtering and retrieval algorithms in addition to HDGrid, such as cagra-post and ivfpq-pos)
 - **[path-to-APP-config-file]**: Path to the application config file, e.g., `HDGrid.conf`
-- **[path-to-filter-config-file]**: Path to the filter config file, e.g., `cc_news.conf`
+- **[path-to-filter-config-file]**: Path to the filter config file, e.g., `example_dataset.conf`
 
 ## 3. Example
 
 ```bash
 ./search-engine Super-Grid HDGrid.conf cc_news.conf
 ```
+
 
