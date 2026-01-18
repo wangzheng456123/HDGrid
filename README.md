@@ -4,7 +4,7 @@
 
 #### BUILD:
 
-- To build the project, you need to first inestall C++ version [RAPIDS RAFT GitHub](https://github.com/rapidsai/raft), then run the build.sh script.
+- Simply run build.sh.
 
 
 ##### Requirements:
@@ -118,3 +118,4 @@ Run the `search-engine` executable with the following command line arguments:
 ```bash
 ./search-engine Super-Grid HDGrid.conf cc_news.conf
 ```
+
