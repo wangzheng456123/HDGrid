@@ -20,9 +20,9 @@ def is_label(string):
 def get_data_file_path(data: str) -> str:
     """Get the file path based on the data type."""
     if data == "ann":
-        return "/home/zwang/sift10m-6filter-6a.hdf5"
+        return "./sift10m.hdf5"
     elif data == "label":
-        return "/home/zwang/sift10m-6filter-6a.hdf5"
+        return "./sift10m.hdf5"
     else:
         raise TypeError("The data filter is not supported!")
 
